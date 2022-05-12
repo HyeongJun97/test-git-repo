@@ -8,7 +8,7 @@ GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BCM)
 
-GIPO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 GPIO.setup(led_pin, GPIO.OUT)
 
